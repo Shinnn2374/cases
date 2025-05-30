@@ -1,18 +1,18 @@
 package org.example;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 
 import java.util.concurrent.locks.ReentrantLock;
 
 @AllArgsConstructor
-@Getter
+@Data
 public class Account {
     private long money;
     private final String accNumber;
     private final ReentrantLock lock;
     private boolean isBlocked;
-    
+
 
     public void lock() {
         lock.lock();
