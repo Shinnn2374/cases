@@ -1,4 +1,9 @@
-package org.example;
+package org.example.dev;
+
+import org.example.Entity.Hall;
+import org.example.Entity.Seat;
+import org.example.Entity.Ticket;
+import org.example.utils.TicketType;
 
 import java.time.LocalDateTime;
 import java.util.*;

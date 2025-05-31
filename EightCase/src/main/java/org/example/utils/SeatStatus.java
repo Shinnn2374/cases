@@ -1,4 +1,4 @@
-package org.example;
+package org.example.utils;
 
 public enum SeatStatus {
     AVAILABLE, BOOKED, SOLD

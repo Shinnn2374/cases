@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.Entity.*;
+import org.example.dev.Customer;
+
 import java.util.List;
 import java.util.Map;
 

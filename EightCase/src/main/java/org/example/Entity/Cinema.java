@@ -1,4 +1,7 @@
-package org.example;
+package org.example.Entity;
+
+import org.example.dev.Customer;
+import org.example.dev.TicketManager;
 
 import java.util.*;
 

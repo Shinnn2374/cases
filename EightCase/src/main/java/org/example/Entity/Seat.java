@@ -1,4 +1,6 @@
-package org.example;
+package org.example.Entity;
+
+import org.example.utils.SeatStatus;
 
 public class Seat {
     private int row;

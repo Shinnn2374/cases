@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dev;
 
 public class Customer {
     private String id;
