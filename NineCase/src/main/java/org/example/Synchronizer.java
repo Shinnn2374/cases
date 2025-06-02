@@ -11,7 +11,6 @@ public class Synchronizer {
             }
         }
     }
-
     public void doOnce() {
         synchronized (lock) {
             isDone = true;

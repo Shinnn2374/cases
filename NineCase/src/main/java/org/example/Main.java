@@ -16,6 +16,8 @@ public class Main {
             }).start();
         }
 
+
+
         // Ждем 2 секунды перед вызовом doOnce()
         Thread.sleep(2000);
         System.out.println("Calling doOnce()");
